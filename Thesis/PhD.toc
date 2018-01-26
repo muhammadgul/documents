@@ -1,0 +1,101 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {greek}
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{\textlatin {i}}{chapter*.1}
+\select@language {english}
+\contentsline {chapter}{Nederlandse samenvatting}{\textlatin {xv}}{chapter*.5}
+\select@language {dutch}
+\contentsline {chapter}{English summary}{\textlatin {xvii}}{chapter*.6}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1-1}{chapter.1}
+\select@language {english}
+\contentsline {chapter}{\numberline {2}The Standard Model and Beyond}{2-1}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Standard Model}{2-1}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The Top Quark}{2-5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The SM Higgs Boson}{2-8}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Beyond the Standard Model}{2-10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Hierarchy problem}{2-10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}SuperSymmetry}{2-11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Minimal SuperSymmetric Model}{2-11}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Higgs sector of MSSM}{2-12}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Heavy Higgs production and decay at LHC}{2-14}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}The $\Phi \rightarrow t\bar {t}$ channel with interference from SM $gg \rightarrow t\bar {t}$}{2-17}{subsection.2.2.6}
+\contentsline {chapter}{\numberline {3}LHC and the CMS Experiment}{3-1}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider at CERN}{3-1}{section.3.1}
+\contentsline {section}{\numberline {3.2}The CMS Experiment at LHC}{3-2}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Tracker}{3-4}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Electromagnetic Calorimeter (ECAL)}{3-5}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Hadronic Calorimeter}{3-6}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Magnet}{3-7}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Muon Spectrometer}{3-7}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Trigger and Data Acquisition Systems}{3-9}{subsection.3.2.6}
+\contentsline {chapter}{\numberline {4}Signal Generation and Simulation}{4-1}{chapter.4}
+\contentsline {section}{\numberline {4.1}Monte Carlo simulation}{4-1}{section.4.1}
+\contentsline {section}{\numberline {4.2}Particle Physics Generators}{4-3}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}MadGraph}{4-3}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Pythia}{4-3}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Powheg}{4-3}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}MC@NLO}{4-3}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}HERWIG}{4-3}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}2HDMC and SusHi}{4-4}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Top++}{4-6}{subsection.4.2.7}
+\contentsline {section}{\numberline {4.3}Signal Modelling}{4-6}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Signal Generation and Validation}{4-6}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Physics Objects Selection and Event Reconstruction at CMS}{5-1}{chapter.5}
+\contentsline {section}{\numberline {5.1}Physics Objects Reconstruction}{5-1}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Particle Flow Algorithm}{5-1}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Primary Vertex and Track Reconstruction}{5-1}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Electron}{5-1}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Muon}{5-1}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Jets}{5-1}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Identification of b-jets}{5-1}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Missing Transverse Energy}{5-1}{subsection.5.1.7}
+\contentsline {section}{\numberline {5.2}Event Selection}{5-1}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Data and Simulated Samples}{5-1}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}First Primary Vertex Selection}{5-1}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Noise and Anomalous Events}{5-1}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Tiggers}{5-1}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Leptons}{5-1}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Jets, b-tagging and MET}{5-1}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}Reconstruction of $t\bar {t}$ System}{5-1}{section.5.3}
+\contentsline {chapter}{\numberline {6}Backgrounds Modelling and Data Driven Techniques for QCD estimation}{6-1}{chapter.6}
+\contentsline {section}{\numberline {6.1}Backgrounds}{6-1}{section.6.1}
+\contentsline {section}{\numberline {6.2}Multijet Estimation}{6-1}{section.6.2}
+\contentsline {chapter}{\numberline {7}Corrections to simulation and systematic uncertainties}{7-1}{chapter.7}
+\contentsline {section}{\numberline {7.1}Corrections to simulation}{7-1}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Pile-up re-weighting}{7-1}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Jet Energy Scale}{7-1}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Jet Energy Resolution}{7-1}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}B tagging}{7-1}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Trigger, Lepton ID and Isolation}{7-1}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Generator level weights}{7-1}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.7}Top quark $p_{T}$}{7-1}{subsection.7.1.7}
+\contentsline {section}{\numberline {7.2}Systematic uncertainties}{7-1}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Luminosity}{7-1}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Pileup}{7-1}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Jet energy scale}{7-1}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Jet energy resolution}{7-1}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Unclustered MET}{7-1}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}b-tagging and misidentification efficiencies}{7-1}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {7.2.7}Lepton trigger/isolation/identification efficiencies}{7-1}{subsection.7.2.7}
+\contentsline {chapter}{\numberline {8}Detector Control System for RPCs at GIF++}{8-1}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{8-1}{section.8.1}
+\contentsline {section}{\numberline {8.2}Motivation}{8-2}{section.8.2}
+\contentsline {section}{\numberline {8.3}WinCC-OA}{8-2}{section.8.3}
+\contentsline {section}{\numberline {8.4}The CMS RPC DCS project at GIF++}{8-2}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}High and Low Voltage System}{8-3}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Environmental and Gas Parameters}{8-3}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}High Voltage Scan and Stability Test}{8-3}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.4}FSM and GUI}{8-4}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.5}DataBase}{8-4}{subsection.8.4.5}
+\contentsline {section}{\numberline {8.5}Conclusion}{8-4}{section.8.5}
+\contentsline {chapter}{\numberline {9}Conclusions and outlooks}{9-1}{chapter.9}
+\contentsline {section}{\numberline {9.1}Conclusions}{9-1}{section.9.1}
+\contentsline {section}{\numberline {9.2}Outlooks}{9-1}{section.9.2}
+\contentsline {chapter}{\numberline {A}MadGraph Parameter Card}{A-1}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introduction}{A-1}{section.A.1}
+\contentsline {chapter}{\numberline {B}Test2}{B-1}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{B-1}{section.B.1}
+\contentsline {chapter}{\numberline {C}Test3}{C-1}{appendix.C}
+\contentsline {section}{\numberline {C.1}Introduction}{C-1}{section.C.1}
