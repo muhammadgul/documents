@@ -1,0 +1,184 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Curriculum Vitae
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Personal Data}
+
+\begin{tabular}{rl}
+    \textsc{Name:} & Muhammad \textsc{Gul} \\
+    \textsc{Place and Date of Birth:} & Pakistan  | 31 March 1985 \\
+    \textsc{Address:}   & Proeftuinstraat 86, 9000 Ghent, Belgium \\
+    \textsc{Phone:}     & +32 478 59 84 00\\
+    \textsc{email:}     & \href{mailto:muhammad.gul@cern.ch}{muhammad.gul@cern.ch}
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}	
+%----------------------------------------------------------------------------------------------------
+2018 & PhD in \textsc{Physics and astronomy}, \small \textbf{University of Ghent}, Belgium\\
+&Thesis: \small The study of Heavy higgs (H/A) in the SM $t\bar{t}$ final state using CMS data\\
+&at 13 TeV. Detector controlling and operation in the GIF++ facility at CERN \\
+&Advisor: Prof. Dr. Dirk \textsc{Ryckbosch}, Dr. Michael \textsc{Tytgat}\\
+\\&\\
+%----------------------------------------------------------------------------------------------------
+2013 & Master in \textsc{Particle Physics}, \small \textbf{Quaid-i-Azam University Islamabad}, Pakistan\\
+&Thesis: \small A Study of Top Quark pair using CMS data \\
+&Advisor: Prof. Dr. Hafeez \textsc{Hoorani}\\
+%\\&\\
+%----------------------------------------------------------------------------------------------------
+%\textsc{March} 2011& Undergraduate Degree in \textsc{Physics} \small \textbf{Quaid-i-Azam University Islamabad}, Pakistan\\
+%----------------------------------------------------------------------------------------------------
+\end{tabular}
+%Section: Work Experience at the top
+\section{Scientific Experience}
+\begin{tabular}{r|p{11.0cm}}
+%----------------------------------------------------------------------------------------------------
+\textsc{2014-Present} & Physics Analysis: \\&\emph{A search for a heavy Higgs boson decaying into a pair of top quarks is performed in the semileptonic final state using about 36\,fb$^{-1}$ of $pp$ collision data collected in 2016. Masses ranging from 400 to 750\,GeV are probed, and two pure CP states are considered. The interference with the QCD $t\bar t$ production is found to play an important role, and it is taken into account explicitly. Upper limits on couplings of the hypothesized particle to top quarks are reported. }\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{Aug 2016-Present} & Detector Performance:\\&\emph{Study of detector longevity in the in the High luminosity LHC conditions.}\\&\footnotesize{The study of the radiation hardness of the Drift Tubes (DT) chambers for the conditions similar to the high luminosity LHC inside the Gamma Irradiation facility GIF++ at CERN. The results are submitted to the Technical Design Report (TDR) for the CMS future upgrade.}\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{2016-2017} & Physics Validation:\\&\emph{Generator Physics Validation for the CMS Monte Carlo Generator and Comparison Group}\\&\footnotesize{ Comparison of the release validation samples in every new CMSSW release to the preceding one using the CMS RelMon tool, to justify the changes observed with the respective changes in the generator or interface codes.}\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{Jan-March 2015} & CMS Tracker Phase II upgrade:\\&\footnotesize{Simulations of the possible new outer tracker detector with the focus on its L1 trigger capability and of the possible new pixel detector to support the studies for the definition of the detector layout.}\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{July-Aug 2013} & CMS RPC upgrade:\\&\footnotesize{ Assembly and quality assurance of the RPC chambers for the 4$^{th}$ RPCs layer (RE4) in both end-caps of the CMS detector.}\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\end{tabular}
+
+%Section: Publications
+\section{Publications}
+\begin{itemize}
+%----------------------------------------------------------------------------------------------------
+\item The CMS Collaboration, ``Measurements of properties of the Higgs boson decaying into the four-lepton final state in pp collisions at sqrt(s) = 13 TeV”, CMS-HIG-16-041, CERN-EP-2017-123, \texttt{arXiv:1706.09936}  \textbf{(Direct Contribution)}
+%----------------------------------------------------------------------------------------------------
+\item The CMS Collaboration, ``TDR for the Phase-2 Upgrade of the CMS Muon Detectors" 	CMS-TDR-17-003  \textbf{(Direct Contribution)}
+%----------------------------------------------------------------------------------------------------
+\end{itemize}
+
+
+%Section: Conference
+\section{Conferences}
+\begin{tabular}{rp{11cm}}
+%----------------------------------------------------------------------------------------------------
+\textsc{05-12 July 2017} & EPS2017, Venice (Italy) \\& \textbf{Talk(Parallel):} Measurement of properties of Higgs boson decaying to pairs of W and Z bosons at 13 TeV with the CMS experiment.\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{15-20 May 2017} & LHCP2017, Shanghai (China) \\& \textbf{Poster:} Measurements of properties of higgs boson decaying in to four-lepton final state in pp collision at $\sqrt{s}$=13 TeV  .\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{26-30 Sep 2016} & SIF2016, Padua(Italy) \\& \textbf{Talk(Parallel):} The new CMS Results on  $H\rightarrow ZZ\rightarrow 4\ell$ results at $\sqrt{s}$=13 TeV with 12.9fb$^{-1}$ collected in 2016 .\\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{10-15 April 2016} & SKI2016, Obergurgl (Austria) \\& \textbf{Talk(Parallel):} New $H\rightarrow ZZ\rightarrow 4\ell$ results at $\sqrt{s}$=13 TeV. \\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{30-31 Mar 2016} & IFAE2016 Genova (Italy) \\& \textbf{Poster:} A discussion of $H\rightarrow ZZ \rightarrow 4\ell$ results and analysis strategies for $\sqrt{s}$=13 TeV. \\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\textsc{11 -15 Mar 2013} & ISS2013, Islamabad (Pakistan) \\& \textbf{Talk(Parallel):} A Study of $t\bar{t}$ system in Muon+Jets channel at $\sqrt{s}$ = 7 TeV with the CMS experiment. \\\multicolumn{2}{c}{} \\
+%----------------------------------------------------------------------------------------------------
+\end{tabular}
+
+%Section: Training and Schools
+\section{Training and Schools}
+\begin{tabular}{rl}
+\textsc{May 25-29} 2015 & INFN School of Statistics, Ischia (Italy).\\
+\textsc{Jan 19-23} 2015 & CMS Data Analysis School, at INFN, Bari, (Italy).\\
+\textsc{June - August} 2013 & CERN Summer Student Program 2013, Geneva (Switzerland).\\ 
+\end{tabular}
+
+%Section: Scholarships and additional info
+\section{Scholarships and Fellowships}
+\begin{tabular}{rl}
+ \textsc{Jan-Dec} 2017 & Awarded with the position of INFN Associate a.k.a simil-fellow at CERN. \\
+\textsc{June-Aug} 2013 & Selection in the CERN Summer Student Program 2013 at CERN. \\
+ 
+\end{tabular}
+
+%Section: Languages
+\section{Languages}
+\begin{tabular}{rl}
+ \textsc{Urdu:}&Mothertongue\\
+\textsc{English:}&Fluent\\
+\textsc{Italian:}&Basic Knowledge\\
+\end{tabular}
+
+\section{Computer Skills}
+\begin{tabular}{rl}
+ Basic Knowledge:&  Access, \textsc{Linux}, \textsc{Mac OS}, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+Intermediate Knowledge:& ROOT, C++, python, Excel, Word, PowerPoint\\
+\end{tabular}
+
+\section{Interests and Activities}
+Technology,  Programming\\
+Cricket, Traveling\\ 
+
+
+\end{document}
