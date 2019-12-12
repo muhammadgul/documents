@@ -1,93 +1,105 @@
 \BOOKMARK [0][-]{chapter*.1}{Acknowledgements}{}% 1
-\BOOKMARK [0][-]{chapter*.5}{Nederlandse samenvatting}{}% 2
-\BOOKMARK [0][-]{chapter*.6}{English summary}{}% 3
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
-\BOOKMARK [0][-]{chapter.2}{The Standard Model and Beyond}{}% 5
-\BOOKMARK [1][-]{section.2.1}{The Standard Model}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.1.1}{The Top Quark}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.2}{The SM Higgs Boson}{section.2.1}% 8
-\BOOKMARK [1][-]{section.2.2}{Beyond the Standard Model}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.1}{The Hierarchy problem}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.2}{SuperSymmetry}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.3}{Minimal SuperSymmetric Model}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.4}{Higgs sector of MSSM}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.5}{Heavy Higgs production and decay at LHC}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.6}{The tbart channel with interference from SM gg tbart}{section.2.2}% 15
-\BOOKMARK [0][-]{chapter.3}{LHC and the CMS Experiment}{}% 16
-\BOOKMARK [1][-]{section.3.1}{The Large Hadron Collider at CERN}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{The CMS Experiment at LHC}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{Tracker}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.2}{Electromagnetic Calorimeter \(ECAL\)}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.3}{Hadronic Calorimeter}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.4}{Magnet}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.5}{Muon Spectrometer}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.6}{Trigger and Data Acquisition Systems}{section.3.2}% 24
-\BOOKMARK [0][-]{chapter.4}{Signal Generation and Simulation}{}% 25
-\BOOKMARK [1][-]{section.4.1}{Monte Carlo simulation}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.2}{Particle Physics Generators}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.2.1}{MadGraph}{section.4.2}% 28
-\BOOKMARK [2][-]{subsection.4.2.2}{Pythia}{section.4.2}% 29
-\BOOKMARK [2][-]{subsection.4.2.3}{Powheg}{section.4.2}% 30
-\BOOKMARK [2][-]{subsection.4.2.4}{MC@NLO}{section.4.2}% 31
-\BOOKMARK [2][-]{subsection.4.2.5}{HERWIG}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.6}{2HDMC and SusHi}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.7}{Top++}{section.4.2}% 34
-\BOOKMARK [1][-]{section.4.3}{Signal Modelling}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.3.1}{Signal Generation and Validation}{section.4.3}% 36
-\BOOKMARK [0][-]{chapter.5}{Physics Objects Selection and Event Reconstruction at CMS}{}% 37
-\BOOKMARK [1][-]{section.5.1}{Physics Objects Reconstruction}{chapter.5}% 38
-\BOOKMARK [2][-]{subsection.5.1.1}{Particle Flow Algorithm}{section.5.1}% 39
-\BOOKMARK [2][-]{subsection.5.1.2}{Primary Vertex and Track Reconstruction}{section.5.1}% 40
-\BOOKMARK [2][-]{subsection.5.1.3}{Electron}{section.5.1}% 41
-\BOOKMARK [2][-]{subsection.5.1.4}{Muon}{section.5.1}% 42
-\BOOKMARK [2][-]{subsection.5.1.5}{Jets}{section.5.1}% 43
-\BOOKMARK [2][-]{subsection.5.1.6}{Identification of b-jets}{section.5.1}% 44
-\BOOKMARK [2][-]{subsection.5.1.7}{Missing Transverse Energy}{section.5.1}% 45
-\BOOKMARK [1][-]{section.5.2}{Event Selection}{chapter.5}% 46
-\BOOKMARK [2][-]{subsection.5.2.1}{Data and Simulated Samples}{section.5.2}% 47
-\BOOKMARK [2][-]{subsection.5.2.2}{First Primary Vertex Selection}{section.5.2}% 48
-\BOOKMARK [2][-]{subsection.5.2.3}{Noise and Anomalous Events}{section.5.2}% 49
-\BOOKMARK [2][-]{subsection.5.2.4}{Tiggers}{section.5.2}% 50
-\BOOKMARK [2][-]{subsection.5.2.5}{Leptons}{section.5.2}% 51
-\BOOKMARK [2][-]{subsection.5.2.6}{Jets, b-tagging and MET}{section.5.2}% 52
-\BOOKMARK [1][-]{section.5.3}{Reconstruction of tbart System}{chapter.5}% 53
-\BOOKMARK [0][-]{chapter.6}{Backgrounds Modelling and Data Driven Techniques for QCD estimation}{}% 54
-\BOOKMARK [1][-]{section.6.1}{Backgrounds}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.2}{Multijet Estimation}{chapter.6}% 56
-\BOOKMARK [0][-]{chapter.7}{Corrections to simulation and systematic uncertainties}{}% 57
-\BOOKMARK [1][-]{section.7.1}{Corrections to simulation}{chapter.7}% 58
-\BOOKMARK [2][-]{subsection.7.1.1}{Pile-up re-weighting}{section.7.1}% 59
-\BOOKMARK [2][-]{subsection.7.1.2}{Jet Energy Scale}{section.7.1}% 60
-\BOOKMARK [2][-]{subsection.7.1.3}{Jet Energy Resolution}{section.7.1}% 61
-\BOOKMARK [2][-]{subsection.7.1.4}{B tagging}{section.7.1}% 62
-\BOOKMARK [2][-]{subsection.7.1.5}{Trigger, Lepton ID and Isolation}{section.7.1}% 63
-\BOOKMARK [2][-]{subsection.7.1.6}{Generator level weights}{section.7.1}% 64
-\BOOKMARK [2][-]{subsection.7.1.7}{Top quark pT}{section.7.1}% 65
-\BOOKMARK [1][-]{section.7.2}{Systematic uncertainties}{chapter.7}% 66
-\BOOKMARK [2][-]{subsection.7.2.1}{Luminosity}{section.7.2}% 67
-\BOOKMARK [2][-]{subsection.7.2.2}{Pileup}{section.7.2}% 68
-\BOOKMARK [2][-]{subsection.7.2.3}{Jet energy scale}{section.7.2}% 69
-\BOOKMARK [2][-]{subsection.7.2.4}{Jet energy resolution}{section.7.2}% 70
-\BOOKMARK [2][-]{subsection.7.2.5}{Unclustered MET}{section.7.2}% 71
-\BOOKMARK [2][-]{subsection.7.2.6}{b-tagging and misidentification efficiencies}{section.7.2}% 72
-\BOOKMARK [2][-]{subsection.7.2.7}{Lepton trigger/isolation/identification efficiencies}{section.7.2}% 73
-\BOOKMARK [0][-]{chapter.8}{Detector Control System for RPCs at GIF++}{}% 74
-\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 75
-\BOOKMARK [1][-]{section.8.2}{Motivation}{chapter.8}% 76
-\BOOKMARK [1][-]{section.8.3}{WinCC-OA}{chapter.8}% 77
-\BOOKMARK [1][-]{section.8.4}{The CMS RPC DCS project at GIF++}{chapter.8}% 78
-\BOOKMARK [2][-]{subsection.8.4.1}{High and Low Voltage System}{section.8.4}% 79
-\BOOKMARK [2][-]{subsection.8.4.2}{Environmental and Gas Parameters}{section.8.4}% 80
-\BOOKMARK [2][-]{subsection.8.4.3}{High Voltage Scan and Stability Test}{section.8.4}% 81
-\BOOKMARK [2][-]{subsection.8.4.4}{FSM and GUI}{section.8.4}% 82
-\BOOKMARK [2][-]{subsection.8.4.5}{DataBase}{section.8.4}% 83
-\BOOKMARK [1][-]{section.8.5}{Conclusion}{chapter.8}% 84
-\BOOKMARK [0][-]{chapter.9}{Conclusions and outlooks}{}% 85
-\BOOKMARK [1][-]{section.9.1}{Conclusions}{chapter.9}% 86
-\BOOKMARK [1][-]{section.9.2}{Outlooks}{chapter.9}% 87
-\BOOKMARK [0][-]{appendix.A}{MadGraph Parameter Card}{}% 88
-\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 89
-\BOOKMARK [0][-]{appendix.B}{Test2}{}% 90
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 91
-\BOOKMARK [0][-]{appendix.C}{Test3}{}% 92
-\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 93
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
+\BOOKMARK [0][-]{chapter.2}{The Standard Model and beyond}{}% 3
+\BOOKMARK [1][-]{section.2.1}{The Standard Model}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{The Top quark}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{The SM Higgs boson}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Beyond the Standard Model}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{The Hierarchy problem}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{Supersymmetry}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.3}{Minimal Supersymmetric Standard Model}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.4}{Higgs sector of MSSM}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.5}{Heavy Higgs production and decay at LHC}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.6}{The tbart channel with interference from the SM gg tbart}{section.2.2}% 13
+\BOOKMARK [0][-]{chapter.3}{The CMS experiment at the Large Hadron Collider}{}% 14
+\BOOKMARK [1][-]{section.3.1}{The Large Hadron Collider at CERN}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{The CMS experiment at the LHC}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Tracker}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Electromagnetic calorimeter \(ECAL\)}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.3}{Hadronic calorimeter \(HCAL\)}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.4}{Magnet}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.5}{Muon spectrometer}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.6}{Trigger and data acquisition systems}{section.3.2}% 22
+\BOOKMARK [0][-]{chapter.4}{Detector control system for RPCs at GIF++}{}% 23
+\BOOKMARK [1][-]{section.4.1}{The HL-LHC program and the CMS detector upgrade}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{WinCC-OA}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{The CMS RPC DCS project at GIF++}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.3.1}{High and low voltage system}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.2}{Environmental and gas parameters}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.3}{High voltage scan and stability test}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.4}{Database}{section.4.3}% 30
+\BOOKMARK [1][-]{section.4.4}{CMS RPC longevity studies}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.4.1}{RPCs setup at GIF++ for efficiency studies}{section.4.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.2}{Efficiency and cluster size results}{section.4.4}% 33
+\BOOKMARK [1][-]{section.4.5}{Summary}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Monte Carlo simulation and event reconstruction}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Monte Carlo simulation}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.1.1}{Parton distribution functions}{section.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.1.2}{Hard scattering}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.3}{Particle physics generators}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.4}{Parton showering}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.5}{Hadronization}{section.5.1}% 41
+\BOOKMARK [2][-]{subsection.5.1.6}{Event simulation}{section.5.1}% 42
+\BOOKMARK [1][-]{section.5.2}{Event reconstruction}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.2.1}{Track and vertex reconstruction}{section.5.2}% 44
+\BOOKMARK [2][-]{subsection.5.2.2}{Primary vertex reconstruction}{section.5.2}% 45
+\BOOKMARK [1][-]{section.5.3}{Physics objects reconstruction}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.3.1}{Muon reconstruction}{section.5.3}% 47
+\BOOKMARK [2][-]{subsection.5.3.2}{Electron reconstruction}{section.5.3}% 48
+\BOOKMARK [2][-]{subsection.5.3.3}{Jet reconstruction}{section.5.3}% 49
+\BOOKMARK [2][-]{subsection.5.3.4}{Heavy flavour jet identification}{section.5.3}% 50
+\BOOKMARK [2][-]{subsection.5.3.5}{Missing transverse energy}{section.5.3}% 51
+\BOOKMARK [1][-]{section.5.4}{Signal modelling}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.4.1}{Analytical calculation}{section.5.4}% 53
+\BOOKMARK [2][-]{subsection.5.4.2}{Event generation and validation}{section.5.4}% 54
+\BOOKMARK [1][-]{section.5.5}{Cross section and BR calculation}{chapter.5}% 55
+\BOOKMARK [2][-]{subsection.5.5.1}{2Hdmc and SusHi}{section.5.5}% 56
+\BOOKMARK [2][-]{subsection.5.5.2}{Top++}{section.5.5}% 57
+\BOOKMARK [0][-]{chapter.6}{Search for a heavy higgs state in the semileptonic channel}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Datasets}{chapter.6}% 59
+\BOOKMARK [2][-]{subsection.6.1.1}{Collision data}{section.6.1}% 60
+\BOOKMARK [2][-]{subsection.6.1.2}{Simulation}{section.6.1}% 61
+\BOOKMARK [1][-]{section.6.2}{Corrections to simulation}{chapter.6}% 62
+\BOOKMARK [2][-]{subsection.6.2.1}{Pile-up re-weighting}{section.6.2}% 63
+\BOOKMARK [2][-]{subsection.6.2.2}{Jet Energy Scale and Resolution}{section.6.2}% 64
+\BOOKMARK [2][-]{subsection.6.2.3}{B tagging}{section.6.2}% 65
+\BOOKMARK [2][-]{subsection.6.2.4}{Trigger efficiency}{section.6.2}% 66
+\BOOKMARK [2][-]{subsection.6.2.5}{Muon and electron efficiency scale factors}{section.6.2}% 67
+\BOOKMARK [2][-]{subsection.6.2.6}{Generator level weights}{section.6.2}% 68
+\BOOKMARK [2][-]{subsection.6.2.7}{Correction of pT spectrum of top quarks in tbart events}{section.6.2}% 69
+\BOOKMARK [1][-]{section.6.3}{Physics objects selection}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.4}{Event selection}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.5}{Search variables}{chapter.6}% 72
+\BOOKMARK [2][-]{subsection.6.5.1}{Reconstruction of the tbart system}{section.6.5}% 73
+\BOOKMARK [2][-]{subsection.6.5.2}{Search variables}{section.6.5}% 74
+\BOOKMARK [1][-]{section.6.6}{Data-driven modelling of the multijet background}{chapter.6}% 75
+\BOOKMARK [2][-]{subsection.6.6.1}{Normalization}{section.6.6}% 76
+\BOOKMARK [2][-]{subsection.6.6.2}{Shape}{section.6.6}% 77
+\BOOKMARK [1][-]{section.6.7}{Systematic uncertainties}{chapter.6}% 78
+\BOOKMARK [2][-]{subsection.6.7.1}{Experimental uncertainties}{section.6.7}% 79
+\BOOKMARK [2][-]{subsection.6.7.2}{Theory uncertainties}{section.6.7}% 80
+\BOOKMARK [2][-]{subsection.6.7.3}{MC statistical uncertainty}{section.6.7}% 81
+\BOOKMARK [1][-]{section.6.8}{Statistical analysis}{chapter.6}% 82
+\BOOKMARK [1][-]{section.6.9}{Summary}{chapter.6}% 83
+\BOOKMARK [0][-]{chapter.7}{Combination of semileptonic and dileptonic channels}{}% 84
+\BOOKMARK [1][-]{section.7.1}{Statistical evaluation and combination}{chapter.7}% 85
+\BOOKMARK [2][-]{subsection.7.1.1}{Systematic uncertainties}{section.7.1}% 86
+\BOOKMARK [1][-]{section.7.2}{Interpretation}{chapter.7}% 87
+\BOOKMARK [2][-]{subsection.7.2.1}{Interpretation in the hMSSM}{section.7.2}% 88
+\BOOKMARK [2][-]{subsection.7.2.2}{Higher-order cross sections}{section.7.2}% 89
+\BOOKMARK [1][-]{section.7.3}{Interpolation and extrapolation to different masses and widths}{chapter.7}% 90
+\BOOKMARK [2][-]{subsection.7.3.1}{Mass and width interpolation}{section.7.3}% 91
+\BOOKMARK [2][-]{subsection.7.3.2}{Width extrapolation}{section.7.3}% 92
+\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}% 93
+\BOOKMARK [2][-]{subsection.7.4.1}{Model-independent limits}{section.7.4}% 94
+\BOOKMARK [2][-]{subsection.7.4.2}{Limits in the hMSSM}{section.7.4}% 95
+\BOOKMARK [1][-]{section.7.5}{Summary}{chapter.7}% 96
+\BOOKMARK [0][-]{chapter.8}{Summary and Conclusion}{}% 97
+\BOOKMARK [0][-]{chapter.9}{Nederlandstalige samenvatting}{}% 98
+\BOOKMARK [0][-]{appendix.A}{Signal distributions}{}% 99
+\BOOKMARK [0][-]{appendix.B}{Validation of the generation procedure for interference}{}% 100
+\BOOKMARK [0][-]{appendix.C}{Data MC comparison}{}% 101
+\BOOKMARK [0][-]{appendix.D}{Impact of systematic uncertainties}{}% 102
+\BOOKMARK [1][-]{subsection.D.0.1}{Single uncertainties}{appendix.D}% 103
+\BOOKMARK [2][-]{subsection.D.0.2}{Groups}{subsection.D.0.1}% 104
+\BOOKMARK [2][-]{subsection.D.0.3}{Nuisance parameter pulls, constraints, and correlations}{subsection.D.0.1}% 105

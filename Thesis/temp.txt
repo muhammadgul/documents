@@ -1,0 +1,7 @@
+equ:collins-soper-sm
+equ:collins-soper-higgs
+\label{equ:extrapolation_to14TeV_bkg}
+\label{equ:extrapolation_to14TeV_sig}
+\label{eq:qcd_lagrange} 
+\label{equ:qed}
+

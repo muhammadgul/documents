@@ -1,0 +1,38 @@
+\documentclass[dvipsnames]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows, decorations.markings, decorations.pathmorphing, decorations.pathreplacing}
+\usetikzlibrary{backgrounds, calc, fit, positioning, shapes}
+
+\begin{document}
+\tikzset{
+  fermion/.style={postaction={decorate},decoration={markings,mark=at position 0.6 with {\arrow{latex'}}},color=Black},
+  gluon/.style={decorate,decoration={coil,amplitude=2.5pt,segment length=4pt},color=Black},
+  boson/.style={decorate,decoration={snake,post length=0pt,pre length=0pt,segment length=4pt},color=Black},
+  scalar/.style={dashed,color=Black},
+  point/.style={circle,inner sep=0pt,minimum size=0pt,color=Black}
+}
+
+
+\begin{tikzpicture}[scale=2, semithick]
+ 
+ \coordinate (PhiProduction) at (0, 0);
+ \coordinate (PhiDecay) at (0.47, 0);
+ \coordinate (topLoopUp) at ($(PhiProduction)+(150:0.6)$);
+ \coordinate (topLoopDown) at ($(PhiProduction)+(210:0.6)$);
+ \node [point] (gluonUp) at ($(topLoopUp)+(160:0.65)$) {$g$};
+ \node [point] (gluonDown) at ($(topLoopDown)+(200:0.65)$) {$g$};
+ \node [point] (topUp) at ($(PhiDecay)+(30:1)$) {$t$};
+ \node [point] (topDown) at ($(PhiDecay)+(-30:1)$) {$\bar t$};
+ 
+ \draw [gluon] (gluonUp) -- (topLoopUp);
+ \draw [gluon] (topLoopDown) -- (gluonDown);
+ \draw [fermion] (topLoopDown) to node[midway, left] {$t$} (topLoopUp);
+ \draw [fermion] (topLoopUp) -- (PhiProduction);
+ \draw [fermion] (PhiProduction) -- (topLoopDown);
+ \draw [scalar] (PhiProduction) to node [midway, above] {$\Phi$} (PhiDecay);
+ \draw [fermion] (topDown) -- (PhiDecay);
+ \draw [fermion] (PhiDecay) -- (topUp);
+\end{tikzpicture}
+
+\end{document}

@@ -1,13 +1,16 @@
-\documentclass[10pt,a4paper,twoside,dutch,english]{book}                % options used for 'Hoofdstuk' or 'Chapter'
-
+%\documentclass[10pt,a4paper,twoside,dutch,english,openany]{book}                % options used for 'Hoofdstuk' or 'Chapter'
+\documentclass[10pt,a4paper,twoside,openright,dutch,english]{book}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PACKAGE LOADING TIME %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{setspace}\onehalfspacing
 \usepackage{xr}
+\usepackage{xcolor}
 \usepackage{cleveref}
 \usepackage{tabu}
 \usepackage{pdflscape}
+\usepackage{fixme}
+%\usepackage{rotating, graphicx}
 %\usepackage{lscape}
 \usepackage{pseudocode}
 \usepackage{times}      % use Times New Roman Type 1 fonts  (redefines sfdefault,rmdefault,ttdefault)
@@ -15,6 +18,8 @@
 %\usepackage{pslatex}
 \usepackage[times]{quotchap}   % fancy chapter beginning
 \usepackage{fancyhdr}
+\usepackage{esvect}
+\usepackage{cancel}
 %\usepackage[sectionbib]{chapterbib2} % bibliography per chapter
 %\usepackage[sectionbib]{chapterbib2} % bibliography per chapter
 % (sectionbib -> bibliography is \section* instead of \chapter*), should come before babel chapterbib2 
@@ -22,12 +27,15 @@
 \usepackage[dutch,english,greek]{babel}
 \usepackage{cmap}
 \usepackage[utf8]{inputenc}
+
 %\usepackage[sectionbib,numbers,sort&compress]{natbib}  %for citations a la 'Vermeulen et al.' instead of [1]
 %\usepackage{tocbibind} % automatically add bibliography, list of figures, ... to table of contents
-\usepackage[a4paper]{geometry}  % better control over margins
+\usepackage[lmargin=98pt,rmargin=61pt,tmargin=127pt,bmargin=130pt]{geometry}
+%\usepackage[a4paper]{geometry}  % better control over margins
 %\usepackage[a4paper,verbose, asymmetric,centering]{geometry}
 %\usepackage[a4paper, total={6in, 8in}]{geometry}
 %\usepackage[hang]{caption}     %better control over captions (sideways, font, ...)  hang -> 2nd line of caption is indented (caption2 is deprecated and beta)
+\usepackage[hidelinks]{hyperref}
 \usepackage{caption}     %better control over captions (sideways, font, ...)  
 \usepackage[subrefformat=parens,justification=centering]{subcaption}
 %\usepackage{cite}
@@ -45,7 +53,9 @@
 %\linenumbers
 %\usepackage{psfrag}
 \usepackage{chappg}     % page numbering (chapno-pageno), for ToC
-\usepackage{url}        % for better url typesetting
+\usepackage{url}
+\usepackage{xurl}        % for better url typesetting
+%\def\UrlBreaks{\do\/\do-}
 \usepackage{expdlist}   % Expanded description (e.g. better alignement) -> needed for acronym_expdlist package
 \usepackage{acronym_expdlist}   % for list of acronyms
 \usepackage{hhline}     % generates nicer table lines (without missing pixels) + more flexible
@@ -81,10 +91,6 @@
   ,isbn=false
 ]{biblatex}
 \bibliography{bib/PhD.bib}
-\bibliography{bib/chap2.bib}
-\bibliography{bib/chap3.bib}
-\bibliography{bib/chap4.bib}
-\bibliography{bib/chap8.bib}
 
 %%%%%%%%%%%%%%%%%
 %% PAGE LAYOUT %%
@@ -96,7 +102,7 @@
 %% HYPHENATION %%
 %%%%%%%%%%%%%%%%%
 
-\input{hyphenation.tex} % to have a separate file with hyphenations
+%\input{hyphenation.tex} % to have a separate file with hyphenations
 
 %%%%%%%%%%%%%%%%%%%%
 %%  START BOOK    %%
@@ -116,57 +122,69 @@
 % 
 % % Header
  \noindent
- \begin{minipage}{3cm}%
-   \includegraphics*[width=2cm]{fig/ugent.png}% logo ugent
+ \begin{minipage}{6cm}%
+   \includegraphics*[width=6cm]{fig/UGent_WE_logo.png}% logo ugent
  \end{minipage}\hfill
- \begin{minipage}{8cm}
- \raggedleft
- \textsf{Universiteit Gent\\
- Faculteit Wetenschappen\\
- Vakgroep Fysica en Sterrenkunde}
- \end{minipage}
+% \begin{minipage}{8cm}
+% \raggedleft
+% \textsf{Universiteit Gent\\
+% Faculteit Wetenschappen\\
+% Vakgroep Fysica en Sterrenkunde}
+% \end{minipage}
 % 
 % % Title
 \bigskip
    \begin{flushleft}
-     \Large \textsf{No title yet}\\
-     \vspace{0.1in}\large{\textsf{No sub-title neither, obviously...}}%\noindent
-   \end{flushleft}
- \hrule
+     \Large \textsf{Search for a heavy Higgs boson decaying into a pair of top quarks with
+the CMS 13\,TeV dataset}\\
+    \end{flushleft}
+ \hrule 
 % 
- \bigskip
-   \LARGE\noindent \textsf{Muhammad Gul} \hfill
- \bigskip
-% 
+ \bigskip \bigskip
+   \LARGE\noindent \textsf{Muhammad Gul} \hfill \\
+    \bigskip
+
+\noindent\large\textsf{Supervisors: Dr.\ Michael Tytgat, Prof.\ Dr.\ Didar Dobur}\\ \\
+A dissertation submitted to Ghent University in partial fulfilment of the requirements for the degree of Doctor of Science: Physics \\ 
+\bigskip
+Academic year 2017-2018
 % % Front Figure
 % %\bigskip
-% %\begin{figure}[htb]%
-% %  \centering%
-% %  \includegraphics*[width=\textwidth]{figFront}%
-% %\end{figure}%
-% %\normalsize
-% 
-% \bigskip
-% \begin{figure}[h!]%
-%   \centering%
-%   \includegraphics*[height=10cm, keepaspectratio, clip]{figFront}%
-% \end{figure}%
+\\ 
+\begin{figure}[htb]%
+  \centering%
+  \includegraphics*[width=13cm]{fig/front/higgs_semilep-1_1_1_RhoPhi.pdf}%
+ % \put(5,1){hello}
+\end{figure}%
+
  \normalsize
 % 
+
 % % Footer
- \vfill
- \begin{minipage}{2.0cm}%
-     \includegraphics*[width=2.0cm]{fig/CMSlogo.png}%       % CMS logo
+ \noindent
+ \begin{minipage}{2cm}%
+   \includegraphics*[width=3cm]{fig/ugent.png}% logo ugent
  \end{minipage}\hfill
- \begin{minipage}{6cm}
- \centering
- \textsf{Thesis to obtain the degree of\\
- Doctor of Philosophy in Physics\\
- Academic years 2014-2018}
- \end{minipage}\hfill
- \begin{minipage}{2.0cm}%
-     \includegraphics*[width=2.0cm]{CERN}%       % CERN logo
- \end{minipage}\hfill
+ 
+% \begin{minipage}{7cm}
+% \raggedleft
+% \textsf{Universiteit Gent\\
+% Faculteit Wetenschappen\\
+% Vakgroep Fysica en Sterrenkunde}
+% \end{minipage}
+% \vfill \noindent
+% \begin{minipage}{2.0cm}%
+%     \includegraphics*[width=2.0cm]{fig/CMSlogo.png}%       % CMS logo
+% \end{minipage}\hfill
+% \begin{minipage}{6cm}
+% \centering
+% \textsf{Thesis to obtain the degree of\\
+% Doctor of Philosophy in Physics\\
+% Academic years 2014-2018}
+% \end{minipage}\hfill
+% \begin{minipage}{2.0cm}%
+%     \includegraphics*[width=2.0cm]{CERN}%       % CERN logo
+% \end{minipage}\hfill
 
 
 %% INFORMATION PAGE     %%
@@ -174,54 +192,7 @@
 
 \clearpage{\pagestyle{empty}\cleardoublepage}
 \thispagestyle{empty}
-
-\normalsize
-
-% Header
-\noindent
-\begin{minipage}{3cm}%
-   \includegraphics*[width=2cm]{ugent}% logo ugent
- \end{minipage}\hfill
- \begin{minipage}{8cm}
- \raggedleft
- \textsf{Universiteit Gent\\
- Faculteit Wetenschappen\\
- Vakgroep Fysica en Sterrenkunde}
- \end{minipage}
-\\[2cm]
-
-\noindent \begin{tabular}{ @{} l l}
-Promotoren: & Dr.\ Michael Tytgat\\
- & Prof.\ Dr.\ Dirk Ryckbosch\\
-\end{tabular}
-\\[2cm]
-
-\noindent Universiteit Gent \\
-\noindent Faculteit Wetenschappen\\
-\\[0.3cm]
-\noindent Vakgroep Fysica en Sterrenkunde \\
-\noindent Proeftuinstraat 86,
-\noindent B-9000 Gent, Belgi\"e 
-\\[0.3cm]
-\noindent Tel.: +32 9 264.65.28\\
-\noindent Fax.: +32 9 264.66.97
-
-\vfill
-
- \begin{minipage}{2.0cm}%
-     \includegraphics*[width=2.0cm]{CMSlogo}%       % CMS logo
- \end{minipage}\hfill
- \begin{minipage}{6cm}
- \centering
- \textsf{Thesis to obtain the degree of\\
- Doctor of Philosophy in Physics\\
- Academic years 2014-2018}
- \end{minipage}\hfill
- \begin{minipage}{2.0cm}%
-     \includegraphics*[width=2.0cm]{CERN}%       % CERN logo
- \end{minipage}\hfill
-\clearpage{\pagestyle{empty}\cleardoublepage}
-
+ 
 
 %% ACKNOWLEDGMENT   %%
 %%%%%%%%%%%%%%%%%%%%%%%
@@ -230,12 +201,30 @@ Promotoren: & Dr.\ Michael Tytgat\\
 \hyphenation{bu-reau-ge-no-ten}
 \frontmatter
 \chapter{Acknowledgements}
-\vspace{0.35in}
+%\vspace{0.3in}
 
-Acknowledge the help of all...
+My thesis is based on a joint project and I would like to thank all those who contributed directly and indirectly. I would like to especially thank my supervisors, colleagues, friends, and family members. Without their support, I would not have been able to perform this interesting Higgs research and make the DCS project.
 
-\begin{flushright}{\emph{Gent, what to write here...\\
-Muhammad Gul}}
+First, I am extremely thankful to \textit{Prof. Dr. Dirk Ryckbosch} and \textit{Dr. Michael Tytgat} who gave me a chance to come out of a troubled area in Pakistan (FATA). This opened a door for me to participate in international collaborations and meet people all over the world. You always welcomed me whenever I faced a problem. Thank you so much for your support while sending me to CERN for long- and short-time visits. Thank you \textit{Prof.\ Dr.\ Didar Dobur} for your support and always welcoming attitude. 
+
+I am thankful to Efe Yazgan and Bugra Bilin for all of their technical support at the beginning of the project. You introduced me to the big team of the heavy Higgs to ttbar searches, and we eventually made it public.
+
+The members of the heavy Higgs to ttbar group have contributed immensely to my work during the data analysis. The group provided me support at every level when I was stuck. Andrey Popov, working with you always gave me a new dimension of knowledge. Every time I spoke to you, I felt like I learned something new. I am very thankful to you and all members of the group – Viola Sordini, Mauro Verzetti, Alexander Grohsjean, and Jan Steggemann – for your constant support. I had a wonderful and unforgettable time with you and learnt a lot.
+
+I would like to thank all members of the GIF++ RPC team and the CERN engineering department for their help during the development of the DCS system. I would especially like to thank Nicolas Zaganidis, Gabriella Pugliese, and Marino Romano for their support and insight whenever I was stuck.
+
+I wish to thank the members of my dissertation committee: Prof. Dr. Dirk Ryckbosch, Prof. Dr. Jan Ryckebusch, Prof. Dr. Natalie Jachowicz, Prof. Dr. Van Mechelen Pierre, Prof. Dr. Luc Van Hoorebeke, Prof. Dr. Andrea Giammanco for generously offering their time, support, guidance and good will throughout the preparation and review of this document.
+
+I am grateful to all my INW and Gent friends. It was indeed a wonderful time that I spent with you. Thank you, Sam De Ridder, for helping me with the Dutch translation of the summary of this thesis. Thanks to all my Pakistani friends and colleagues. Prof. Hafeez, I am very thankful for your support throughout my career. I am grateful for the time I spent at CERN with Mehar, Qamar, Waqas, Waqar, Ammara, Bilal, and Ahmad and our memorable trips to the mountains. Thank you Muhammad Islam, Sherin Khan, and Nasar Ali for all your support during my life.     
+
+Lastly, I would like to thank my family for all their love and encouragement. For my parents, who raised me with a love of science and supported me in all my endeavours. And most of all, for my loving, supportive, encouraging, and patient wife, Kalsoom Gul and my cute children, Muhammad Shoraim and Muhammad Sudais, whose faithful support during the whole process is highly appreciated. I am sorry that I spent most of my time away from you, but I promise I will join you soon. Thank you. 
+
+
+\begin{flushright}{\emph{Muhammad Gul}\\
+Dept. of Physics and Astronomy,\\
+Ghent University,\\
+Belgium
+}
 \end{flushright}
 \selectlanguage{english}
 
@@ -244,23 +233,25 @@ Muhammad Gul}}
 %%   TOC, LIST OF FIGURES, LIST OF TABLES, ACRONYMS     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewcommand{\contentsname}{Table of Contents} % original name = Contents
-
+\renewcommand{\contentsname}{Table of contents} % original name = Contents
+%\renewcommand\evenpagerightmark{{\scshape\small Table of contents}}
+\renewcommand\oddpageleftmark{{\scshape\small Table of contents}}
 \tableofcontents
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
-\listoffigures
-\clearpage{\pagestyle{empty}\cleardoublepage}
+%\listoffigures
+%\clearpage{\pagestyle{empty}\cleardoublepage}
 
-\listoftables
-\clearpage{\pagestyle{empty}\cleardoublepage}
-
-%\include{phdacronyms}
+%\listoftables
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+%\renewcommand\evenpagerightmark{{\scshape\small List of acronyms}}
+\renewcommand\oddpageleftmark{{\scshape\small List of acronyms}}
+\include{phdacronyms}
 
 \clearpage      % clear the current page
 \thispagestyle{empty}   % prevent header on this (empty -> next line) page
-\mbox{}         % to insert a not empty page, so that there is min. 1 blank page before next chapter
-\clearpage{\pagestyle{empty}\cleardoublepage}   % clear the current page and start on the right side
+%\mbox{}         % to insert a not empty page, so that there is min. 1 blank page before next chapter
+%\clearpage{\pagestyle{empty}\cleardoublepage}   % clear the current page and start on the right side
 
 %\renewcommand{\tablename}{Table}
 
@@ -271,12 +262,12 @@ Muhammad Gul}}
 	%% SUMMARY IN DUTCH       %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \selectlanguage{dutch}
-\include{Chapters/chapt_dutch}
+
 
 	%% SUMMARY IN ENGLISH       %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \selectlanguage{english}
-\include{Chapters/chapt_english}
+
 
 %% THE BOOK ITSELF   %%
 %%%%%%%%%%%%%%%%%%%%%%%
@@ -311,32 +302,32 @@ Muhammad Gul}}
 \newcommand{\SIrate}[1]{\num{#1}\,\si{\hertz\cm^{-2}}}
 
 \baselineskip 13.0pt
-\externaldocument{Chapters/chapt10.tex}
-\externaldocument{Chapters/chapt3.tex}
+%\externaldocument{Chapters/chapt10.tex}
+%\externaldocument{Chapters/chapt3.tex}
 
 \include{Chapters/intro}
-\include{Chapters/chapt2}
-\include{Chapters/chapt3}
-\include{Chapters/chapt4}
-\include{Chapters/chapt5}
-\include{Chapters/chapt6}
-\include{Chapters/chapt7}
-\include{Chapters/chapt8}
+\include{Chapters/sm_beyond}
+\include{Chapters/lhc}
+\include{Chapters/wincc_oa}
+\include{Chapters/sign_gen}
+\include{Chapters/research_strategy}
+\include{Chapters/combination}
 \include{Chapters/conclusion}
-
-%\cfchapter{Chapters/chapt3}
-%\cfchapter{Chapters/chapt10}
-
-
-\newpage
+\include{Chapters/init_app/chapt_dutch}
+%\newpage
+\include{bib/bib_names}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\thispagestyle{empty}
 \printbibliography
-
-%\addcontentsline{toc}{section}{}
-
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\thispagestyle{empty}
 \appendix
-\include{Chapters/app1}
-\include{Chapters/app2}
-\include{Chapters/app3}
+%\include{Chapters/init_app/publications}
+%\include{Chapters/init_app/app1}
+\include{Chapters/init_app/app2}
+\include{Chapters/init_app/app3}
+\include{Chapters/init_app/app4}
+\include{Chapters/init_app/app5}
 
 %\renewcommand\fdtsvrightmarktmp{{\scshape\small Appendix }}
 \renewcommand\evenpagerightmark{{\scshape\small Appendix \thechapter}}

@@ -4,98 +4,110 @@
 \select@language {english}
 \contentsline {chapter}{Acknowledgements}{\textlatin {i}}{chapter*.1}
 \select@language {english}
-\contentsline {chapter}{Nederlandse samenvatting}{\textlatin {xv}}{chapter*.5}
-\select@language {dutch}
-\contentsline {chapter}{English summary}{\textlatin {xvii}}{chapter*.6}
-\select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{1-1}{chapter.1}
+\select@language {dutch}
 \select@language {english}
-\contentsline {chapter}{\numberline {2}The Standard Model and Beyond}{2-1}{chapter.2}
+\select@language {english}
+\contentsline {chapter}{\numberline {2}The Standard Model and beyond}{2-1}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model}{2-1}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}The Top Quark}{2-5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The SM Higgs Boson}{2-8}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.1}The Top quark}{2-5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The SM Higgs boson}{2-8}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Beyond the Standard Model}{2-10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}The Hierarchy problem}{2-10}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}SuperSymmetry}{2-11}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Minimal SuperSymmetric Model}{2-11}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.2}Supersymmetry}{2-11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Minimal Supersymmetric Standard Model}{2-11}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Higgs sector of MSSM}{2-12}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Heavy Higgs production and decay at LHC}{2-14}{subsection.2.2.5}
-\contentsline {subsection}{\numberline {2.2.6}The $\Phi \rightarrow t\bar {t}$ channel with interference from SM $gg \rightarrow t\bar {t}$}{2-17}{subsection.2.2.6}
-\contentsline {chapter}{\numberline {3}LHC and the CMS Experiment}{3-1}{chapter.3}
+\contentsline {subsection}{\numberline {2.2.5}Heavy Higgs production and decay at LHC}{2-15}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}The $\Phi \rightarrow t\bar {t}$ channel with interference from the SM $gg \rightarrow t\bar {t}$}{2-17}{subsection.2.2.6}
+\contentsline {chapter}{\numberline {3}The CMS experiment at the Large Hadron Collider}{3-1}{chapter.3}
 \contentsline {section}{\numberline {3.1}The Large Hadron Collider at CERN}{3-1}{section.3.1}
-\contentsline {section}{\numberline {3.2}The CMS Experiment at LHC}{3-2}{section.3.2}
+\contentsline {section}{\numberline {3.2}The CMS experiment at the LHC}{3-3}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Tracker}{3-4}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Electromagnetic Calorimeter (ECAL)}{3-5}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Hadronic Calorimeter}{3-6}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.2}Electromagnetic calorimeter (ECAL)}{3-5}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Hadronic calorimeter (HCAL)}{3-6}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Magnet}{3-7}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Muon Spectrometer}{3-7}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Trigger and Data Acquisition Systems}{3-9}{subsection.3.2.6}
-\contentsline {chapter}{\numberline {4}Signal Generation and Simulation}{4-1}{chapter.4}
-\contentsline {section}{\numberline {4.1}Monte Carlo simulation}{4-1}{section.4.1}
-\contentsline {section}{\numberline {4.2}Particle Physics Generators}{4-3}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}MadGraph}{4-3}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Pythia}{4-3}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Powheg}{4-3}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}MC@NLO}{4-3}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}HERWIG}{4-3}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}2HDMC and SusHi}{4-4}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Top++}{4-6}{subsection.4.2.7}
-\contentsline {section}{\numberline {4.3}Signal Modelling}{4-6}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Signal Generation and Validation}{4-6}{subsection.4.3.1}
-\contentsline {chapter}{\numberline {5}Physics Objects Selection and Event Reconstruction at CMS}{5-1}{chapter.5}
-\contentsline {section}{\numberline {5.1}Physics Objects Reconstruction}{5-1}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Particle Flow Algorithm}{5-1}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Primary Vertex and Track Reconstruction}{5-1}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Electron}{5-1}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Muon}{5-1}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Jets}{5-1}{subsection.5.1.5}
-\contentsline {subsection}{\numberline {5.1.6}Identification of b-jets}{5-1}{subsection.5.1.6}
-\contentsline {subsection}{\numberline {5.1.7}Missing Transverse Energy}{5-1}{subsection.5.1.7}
-\contentsline {section}{\numberline {5.2}Event Selection}{5-1}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Data and Simulated Samples}{5-1}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}First Primary Vertex Selection}{5-1}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Noise and Anomalous Events}{5-1}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Tiggers}{5-1}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Leptons}{5-1}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}Jets, b-tagging and MET}{5-1}{subsection.5.2.6}
-\contentsline {section}{\numberline {5.3}Reconstruction of $t\bar {t}$ System}{5-1}{section.5.3}
-\contentsline {chapter}{\numberline {6}Backgrounds Modelling and Data Driven Techniques for QCD estimation}{6-1}{chapter.6}
-\contentsline {section}{\numberline {6.1}Backgrounds}{6-1}{section.6.1}
-\contentsline {section}{\numberline {6.2}Multijet Estimation}{6-1}{section.6.2}
-\contentsline {chapter}{\numberline {7}Corrections to simulation and systematic uncertainties}{7-1}{chapter.7}
-\contentsline {section}{\numberline {7.1}Corrections to simulation}{7-1}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Pile-up re-weighting}{7-1}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Jet Energy Scale}{7-1}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Jet Energy Resolution}{7-1}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}B tagging}{7-1}{subsection.7.1.4}
-\contentsline {subsection}{\numberline {7.1.5}Trigger, Lepton ID and Isolation}{7-1}{subsection.7.1.5}
-\contentsline {subsection}{\numberline {7.1.6}Generator level weights}{7-1}{subsection.7.1.6}
-\contentsline {subsection}{\numberline {7.1.7}Top quark $p_{T}$}{7-1}{subsection.7.1.7}
-\contentsline {section}{\numberline {7.2}Systematic uncertainties}{7-1}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Luminosity}{7-1}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Pileup}{7-1}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Jet energy scale}{7-1}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Jet energy resolution}{7-1}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Unclustered MET}{7-1}{subsection.7.2.5}
-\contentsline {subsection}{\numberline {7.2.6}b-tagging and misidentification efficiencies}{7-1}{subsection.7.2.6}
-\contentsline {subsection}{\numberline {7.2.7}Lepton trigger/isolation/identification efficiencies}{7-1}{subsection.7.2.7}
-\contentsline {chapter}{\numberline {8}Detector Control System for RPCs at GIF++}{8-1}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{8-1}{section.8.1}
-\contentsline {section}{\numberline {8.2}Motivation}{8-2}{section.8.2}
-\contentsline {section}{\numberline {8.3}WinCC-OA}{8-2}{section.8.3}
-\contentsline {section}{\numberline {8.4}The CMS RPC DCS project at GIF++}{8-2}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}High and Low Voltage System}{8-3}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Environmental and Gas Parameters}{8-3}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}High Voltage Scan and Stability Test}{8-3}{subsection.8.4.3}
-\contentsline {subsection}{\numberline {8.4.4}FSM and GUI}{8-4}{subsection.8.4.4}
-\contentsline {subsection}{\numberline {8.4.5}DataBase}{8-4}{subsection.8.4.5}
-\contentsline {section}{\numberline {8.5}Conclusion}{8-4}{section.8.5}
-\contentsline {chapter}{\numberline {9}Conclusions and outlooks}{9-1}{chapter.9}
-\contentsline {section}{\numberline {9.1}Conclusions}{9-1}{section.9.1}
-\contentsline {section}{\numberline {9.2}Outlooks}{9-1}{section.9.2}
-\contentsline {chapter}{\numberline {A}MadGraph Parameter Card}{A-1}{appendix.A}
-\contentsline {section}{\numberline {A.1}Introduction}{A-1}{section.A.1}
-\contentsline {chapter}{\numberline {B}Test2}{B-1}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{B-1}{section.B.1}
-\contentsline {chapter}{\numberline {C}Test3}{C-1}{appendix.C}
-\contentsline {section}{\numberline {C.1}Introduction}{C-1}{section.C.1}
+\contentsline {subsection}{\numberline {3.2.5}Muon spectrometer}{3-8}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Trigger and data acquisition systems}{3-9}{subsection.3.2.6}
+\contentsline {chapter}{\numberline {4}Detector control system for RPCs at GIF++}{4-1}{chapter.4}
+\contentsline {section}{\numberline {4.1}The HL-LHC program and the CMS detector upgrade}{4-1}{section.4.1}
+\contentsline {section}{\numberline {4.2}WinCC-OA}{4-5}{section.4.2}
+\contentsline {section}{\numberline {4.3}The CMS RPC DCS project at GIF++}{4-6}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}High and low voltage system}{4-7}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Environmental and gas parameters}{4-7}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}High voltage scan and stability test}{4-8}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Database}{4-8}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}CMS RPC longevity studies}{4-9}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}RPCs setup at GIF++ for efficiency studies}{4-10}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Efficiency and cluster size results}{4-11}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Summary}{4-11}{section.4.5}
+\contentsline {chapter}{\numberline {5}Monte Carlo simulation and event reconstruction}{5-1}{chapter.5}
+\contentsline {section}{\numberline {5.1}Monte Carlo simulation}{5-1}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Parton distribution functions}{5-1}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Hard scattering}{5-2}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Particle physics generators}{5-2}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Parton showering}{5-3}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Hadronization}{5-4}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Event simulation}{5-4}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Event reconstruction}{5-4}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Track and vertex reconstruction}{5-5}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Primary vertex reconstruction}{5-5}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Physics objects reconstruction}{5-5}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Muon reconstruction}{5-6}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Electron reconstruction}{5-6}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Jet reconstruction}{5-7}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Heavy flavour jet identification}{5-7}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Missing transverse energy}{5-8}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Signal modelling}{5-8}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Analytical calculation}{5-9}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Event generation and validation}{5-11}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Cross section and BR calculation}{5-12}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}\textsc {2Hdmc} and \textsc {SusHi}}{5-12}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}\textsc {Top++}}{5-17}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Search for a heavy higgs state in the semileptonic channel}{6-1}{chapter.6}
+\contentsline {section}{\numberline {6.1}Datasets}{6-2}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Collision data}{6-2}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Simulation}{6-2}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Corrections to simulation}{6-5}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Pile-up re-weighting}{6-5}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Jet Energy Scale and Resolution}{6-5}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}B tagging}{6-5}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Trigger efficiency}{6-6}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Muon and electron efficiency scale factors}{6-8}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Generator level weights}{6-8}{subsection.6.2.6}
+\contentsline {subsection}{\numberline {6.2.7}Correction of $p_{T}$ spectrum of top quarks in $t\bar {t}$ events}{6-11}{subsection.6.2.7}
+\contentsline {section}{\numberline {6.3}Physics objects selection}{6-12}{section.6.3}
+\contentsline {section}{\numberline {6.4}Event selection}{6-15}{section.6.4}
+\contentsline {section}{\numberline {6.5}Search variables}{6-17}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Reconstruction of the $t\bar t$ system}{6-17}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Search variables}{6-18}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Data-driven modelling of the multijet background}{6-20}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Normalization}{6-21}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Shape}{6-26}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Systematic uncertainties}{6-29}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Experimental uncertainties}{6-30}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Theory uncertainties}{6-30}{subsection.6.7.2}
+\contentsline {subsection}{\numberline {6.7.3}MC statistical uncertainty}{6-39}{subsection.6.7.3}
+\contentsline {section}{\numberline {6.8}Statistical analysis}{6-39}{section.6.8}
+\contentsline {section}{\numberline {6.9}Summary}{6-42}{section.6.9}
+\contentsline {chapter}{\numberline {7}Combination of semileptonic and dileptonic channels}{7-1}{chapter.7}
+\contentsline {section}{\numberline {7.1}Statistical evaluation and combination}{7-1}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Systematic uncertainties}{7-1}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Interpretation}{7-2}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Interpretation in the hMSSM}{7-2}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Higher-order cross sections}{7-4}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Interpolation and extrapolation to different masses and widths}{7-6}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Mass and width interpolation}{7-6}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Width extrapolation}{7-9}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Results}{7-11}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Model-independent limits}{7-11}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Limits in the hMSSM}{7-13}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Summary}{7-13}{section.7.5}
+\contentsline {chapter}{\numberline {8}Summary and Conclusion}{8-1}{chapter.8}
+\contentsline {chapter}{\numberline {9}Nederlandstalige samenvatting}{9-1}{chapter.9}
+\contentsline {chapter}{\numberline {A}Signal distributions}{\textlatin {i}}{appendix.A}
+\contentsline {chapter}{\numberline {B}Validation of the generation procedure for interference}{\textlatin {iii}}{appendix.B}
+\contentsline {chapter}{\numberline {C}Data MC comparison}{\textlatin {xi}}{appendix.C}
+\contentsline {chapter}{\numberline {D}Impact of systematic uncertainties}{\textlatin {xv}}{appendix.D}
+\contentsline {subsection}{\numberline {D.0.1}Single uncertainties}{\textlatin {xv}}{subsection.D.0.1}
+\contentsline {subsection}{\numberline {D.0.2}Groups}{\textlatin {xv}}{subsection.D.0.2}
+\contentsline {subsection}{\numberline {D.0.3}Nuisance parameter pulls, constraints, and correlations}{\textlatin {xvi}}{subsection.D.0.3}

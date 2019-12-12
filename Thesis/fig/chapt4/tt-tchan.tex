@@ -1,0 +1,33 @@
+\documentclass[dvipsnames]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows, decorations.markings, decorations.pathmorphing, decorations.pathreplacing}
+\usetikzlibrary{backgrounds, calc, fit, positioning, shapes}
+
+\begin{document}
+\tikzset{
+  fermion/.style={postaction={decorate},decoration={markings,mark=at position 0.6 with {\arrow{latex'}}},color=Black},
+  gluon/.style={decorate,decoration={coil,amplitude=2.5pt,segment length=4pt},color=Black},
+  boson/.style={decorate,decoration={snake,post length=0pt,pre length=0pt,segment length=4pt},color=Black},
+  scalar/.style={dashed,color=Black},
+  point/.style={circle,inner sep=0pt,minimum size=0pt,color=Black}
+}
+
+
+\begin{tikzpicture}[scale=2, semithick]
+ 
+ \coordinate (propUp) at (0, 0.3);
+ \coordinate (propDown) at (0, -0.3);
+ \node [point] (gluonUp) at ($(propUp)+(160:0.65)$) {$g$};
+ \node [point] (gluonDown) at ($(propDown)+(200:0.65)$) {$g$};
+ \node [point] (topUp) at ($(propUp)+(20:0.65)$) {$t$};
+ \node [point] (topDown) at ($(propDown)+(-20:0.65)$) {$\bar t$};
+ 
+ \draw [gluon] (gluonUp) -- (propUp);
+ \draw [gluon] (propDown) -- (gluonDown);
+ \draw [fermion] (topDown) -- (propDown);
+ \draw [fermion] (propDown) to node[midway, left] {$t$} (propUp);
+ \draw [fermion] (propUp) -- (topUp);
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,202 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Detector control system for RPCs at GIF++}{4-1}{chapter.4}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chapt:4}{{4}{4-1}{Detector control system for RPCs at GIF++}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}The HL-LHC program and the CMS detector upgrade}{4-1}{section.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces  The LHC schedule summary and HL-LHC baseline plan with centre-of-mass energy in the upper thick-red line and the instantaneous luminosity lower red-thin line. Run-I started in 2011 at 7\tmspace  +\thinmuskip {.1667em}TeV subsequently increased to 8\tmspace  +\thinmuskip {.1667em}TeV in 2012, delivered up to 30\tmspace  +\thinmuskip {.1667em}fb$^{-1}$ in the two years. It was followed by a long shut down for two years (2013\IeC {\textendash }14), upgraded to 13\tmspace  +\thinmuskip {.1667em}TeV centre-of-mass energy and finally Run-II started in 2015 and will end in 2018 delivering more than 100\tmspace  +\thinmuskip {.1667em}fb$^{-1}$ data, which will be followed by LS2 for two years. Run-III will span for three years (2021-23) at the designed centre-of-mass, 14\tmspace  +\thinmuskip {.1667em}TeV, with anticipated integrated luminosity of 300\tmspace  +\thinmuskip {.1667em}fb$^{-1}$. The HL-LHC program will start from 2024 with three years detectors up-gradation (LS3) followed by ten years Run-IV and Run-V. The instantaneous luminosity is expected to increase up to 5-7 times the nominal value at 14\tmspace  +\thinmuskip {.1667em}TeV centre-of-mass energy with expected total integrated luminosity of 3\tmspace  +\thinmuskip {.1667em}ab$^{-1}$~\cite {hl_lhc_industry}.\relax }}{4-2}{figure.4.1}}
+\newlabel{fig:hl_lhc_program}{{4.1}{4-2}{The LHC schedule summary and HL-LHC baseline plan with centre-of-mass energy in the upper thick-red line and the instantaneous luminosity lower red-thin line. Run-I started in 2011 at 7\,TeV subsequently increased to 8\,TeV in 2012, delivered up to 30\,fb$^{-1}$ in the two years. It was followed by a long shut down for two years (2013–14), upgraded to 13\,TeV centre-of-mass energy and finally Run-II started in 2015 and will end in 2018 delivering more than 100\,fb$^{-1}$ data, which will be followed by LS2 for two years. Run-III will span for three years (2021-23) at the designed centre-of-mass, 14\,TeV, with anticipated integrated luminosity of 300\,fb$^{-1}$. The HL-LHC program will start from 2024 with three years detectors up-gradation (LS3) followed by ten years Run-IV and Run-V. The instantaneous luminosity is expected to increase up to 5-7 times the nominal value at 14\,TeV centre-of-mass energy with expected total integrated luminosity of 3\,ab$^{-1}$~\cite {hl_lhc_industry}.\relax }{figure.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces An overview of the GIF++ with entrance doors MAD (material access door), PPG (personal protection gate), PPE (personal protection entrance), PPX (personal protection exit).\relax }}{4-3}{figure.4.2}}
+\newlabel{fig:gif}{{4.2}{4-3}{An overview of the GIF++ with entrance doors MAD (material access door), PPG (personal protection gate), PPE (personal protection entrance), PPX (personal protection exit).\relax }{figure.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Irradiator with the attenuator system in the GIF++. (a): Irradiator with independent angular correction filters on both sides. (b): Irradiator with remotely controlled attenuation filters to vary the radiation intensity. (c): A set of 24 nominal attenuation factors are selected from the 27 combination (3$\times $3) that varies from 1 to 46415.\relax }}{4-4}{figure.4.3}}
+\newlabel{fig:attenuator_gif}{{4.3}{4-4}{Irradiator with the attenuator system in the GIF++. (a): Irradiator with independent angular correction filters on both sides. (b): Irradiator with remotely controlled attenuation filters to vary the radiation intensity. (c): A set of 24 nominal attenuation factors are selected from the 27 combination (3$\times $3) that varies from 1 to 46415.\relax }{figure.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Simulation of the unattenuated 662\tmspace  +\thinmuskip {.1667em}keV photon current in the yz-plane at x = 0.65\tmspace  +\thinmuskip {.1667em}m; using the angular correction filter.\relax }}{4-4}{figure.4.4}}
+\newlabel{fig:gif_simul}{{4.4}{4-4}{Simulation of the unattenuated 662\,keV photon current in the yz-plane at x = 0.65\,m; using the angular correction filter.\relax }{figure.4.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Nominal attenuation factors (attenuation of the 662\tmspace  +\thinmuskip {.1667em}keV photons) of some filter settings and measured effective attenuation in position D1 (x=0.65\tmspace  +\thinmuskip {.1667em}m, y=0.00\tmspace  +\thinmuskip {.1667em}m, z=1.10\tmspace  +\thinmuskip {.1667em}m)\relax }}{4-5}{table.4.1}}
+\newlabel{tab:att_values}{{4.1}{4-5}{Nominal attenuation factors (attenuation of the 662\,keV photons) of some filter settings and measured effective attenuation in position D1 (x=0.65\,m, y=0.00\,m, z=1.10\,m)\relax }{table.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}WinCC-OA}{4-5}{section.4.2}}
+\newlabel{sec:wincc}{{4.2}{4-5}{WinCC-OA}{section.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The concept of managers in WinCC-OA and it's functional layers. The event manager plays a key role in connecting all managers in a tree-like structure~\cite {wincc_managers}.\relax }}{4-5}{figure.4.5}}
+\newlabel{fig:wincc_managers}{{4.5}{4-5}{The concept of managers in WinCC-OA and it's functional layers. The event manager plays a key role in connecting all managers in a tree-like structure~\cite {wincc_managers}.\relax }{figure.4.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces FSM main tree and high voltage scan panel using GUI.\relax }}{4-6}{figure.4.6}}
+\newlabel{fig:gui}{{4.6}{4-6}{FSM main tree and high voltage scan panel using GUI.\relax }{figure.4.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces The DCS hierarchy tree for a typical high voltage channel using FSM. The tree shows a transition from one state to another.\relax }}{4-6}{figure.4.7}}
+\newlabel{fig:hierarchy}{{4.7}{4-6}{The DCS hierarchy tree for a typical high voltage channel using FSM. The tree shows a transition from one state to another.\relax }{figure.4.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}The CMS RPC DCS project at GIF++}{4-6}{section.4.3}}
+\newlabel{sec:rpc_proj}{{4.3}{4-6}{The CMS RPC DCS project at GIF++}{section.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces An overview of the CMS RPC DCS at the GIF++.\relax }}{4-7}{figure.4.8}}
+\newlabel{fig:DCS_sys}{{4.8}{4-7}{An overview of the CMS RPC DCS at the GIF++.\relax }{figure.4.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}High and low voltage system}{4-7}{subsection.4.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Environmental and gas parameters}{4-7}{subsection.4.3.2}}
+\newlabel{equ:temp_press_correc}{{4.1}{4-7}{Environmental and gas parameters}{equation.4.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces The HV and LV channels can be operated by the CAEN mainframe independently, and the DCS is connected to the CAEN via OPC server. An easy crate is used for environmental and gas parameter measurement.\relax }}{4-8}{figure.4.9}}
+\newlabel{fig:caen_control}{{4.9}{4-8}{The HV and LV channels can be operated by the CAEN mainframe independently, and the DCS is connected to the CAEN via OPC server. An easy crate is used for environmental and gas parameter measurement.\relax }{figure.4.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}High voltage scan and stability test}{4-8}{subsection.4.3.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces (a): Environmental temperature ($^o$C), pressure (mb), and humidity (\%). Time is on the x-axis while the red, blue, and green lines represent the values of pressure, temperature, and humidity respectively on the y-axis. The pressure and temperature values used for operating voltage correction of the RPCs. (b): A HV scan of the CMS RE3 chamber. The x-axis shows time while the y-axis shows the voltage (V) and current ($\mu $A) values. The red, blue, and green lines are voltages while the cyan, brown, and orange lines are the corresponding current values for bottom, top-narrow, and top-wide gaps respectively.\relax }}{4-8}{figure.4.10}}
+\newlabel{scan_temp}{{4.10}{4-8}{(a): Environmental temperature ($^o$C), pressure (mb), and humidity (\%). Time is on the x-axis while the red, blue, and green lines represent the values of pressure, temperature, and humidity respectively on the y-axis. The pressure and temperature values used for operating voltage correction of the RPCs. (b): A HV scan of the CMS RE3 chamber. The x-axis shows time while the y-axis shows the voltage (V) and current ($\mu $A) values. The red, blue, and green lines are voltages while the cyan, brown, and orange lines are the corresponding current values for bottom, top-narrow, and top-wide gaps respectively.\relax }{figure.4.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Database}{4-8}{subsection.4.3.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}CMS RPC longevity studies}{4-9}{section.4.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Extrapolation from 2016 data of single hit rate per unit area to HL-LHC conditions, in the barrel (left) and endcap (right) regions, for the present RPC system.\relax }}{4-9}{figure.4.11}}
+\newlabel{fig:cms_rpc_extrapolated_rates}{{4.11}{4-9}{Extrapolation from 2016 data of single hit rate per unit area to HL-LHC conditions, in the barrel (left) and endcap (right) regions, for the present RPC system.\relax }{figure.4.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Integrated charge versus time accumulated during the GIF++ studies for the RE2/2 (red) and RE4/2 (blue) chambers. Because of total gas flow limitations, the RE4/2 chamber has been turned on few months later. Different slopes account for different irradiation conditions during data taking.\relax }}{4-10}{figure.4.12}}
+\newlabel{fig:gifpp_integrated_Q}{{4.12}{4-10}{Integrated charge versus time accumulated during the GIF++ studies for the RE2/2 (red) and RE4/2 (blue) chambers. Because of total gas flow limitations, the RE4/2 chamber has been turned on few months later. Different slopes account for different irradiation conditions during data taking.\relax }{figure.4.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}RPCs setup at GIF++ for efficiency studies}{4-10}{subsection.4.4.1}}
+\newlabel{eff_calc}{{4.4.1}{4-10}{RPCs setup at GIF++ for efficiency studies}{subsection.4.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces CMS RPCs setup in the GIF++. Detectors are placed perpendicularly and a few meters away from the source.\relax }}{4-10}{figure.4.13}}
+\newlabel{fig:rpc_setup}{{4.13}{4-10}{CMS RPCs setup in the GIF++. Detectors are placed perpendicularly and a few meters away from the source.\relax }{figure.4.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Efficiency and cluster size results}{4-11}{subsection.4.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces (a): Efficiency vs HV$_{eff}$ for different gamma attenuator factors. (b): Maximum efficiency vs gamma rate at HV$_{wp}$ for four RPCs.\relax }}{4-11}{figure.4.14}}
+\newlabel{eff}{{4.14}{4-11}{(a): Efficiency vs HV$_{eff}$ for different gamma attenuator factors. (b): Maximum efficiency vs gamma rate at HV$_{wp}$ for four RPCs.\relax }{figure.4.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Summary}{4-11}{section.4.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces Hit efficiency of RE2/2 as a function of the effective HV, without irradiation (left) and under a gamma background rate of about 600\tmspace  +\thinmuskip {.1667em}Hz-cm$^{-2}$ (right). The measured efficiency of the RE2/2 chamber corresponds to different Test Beams (TB) with integrated charge: 0, 153\tmspace  +\thinmuskip {.1667em}mC-cm$^{-2}$ (18\%) and 257\tmspace  +\thinmuskip {.1667em}mC-cm$^{-2}$ (31\%). The detector performance is stable at high fraction of accumulated charge.\relax }}{4-12}{figure.4.15}}
+\newlabel{fig:cms_rpc_eff_diff_periods}{{4.15}{4-12}{Hit efficiency of RE2/2 as a function of the effective HV, without irradiation (left) and under a gamma background rate of about 600\,Hz-cm$^{-2}$ (right). The measured efficiency of the RE2/2 chamber corresponds to different Test Beams (TB) with integrated charge: 0, 153\,mC-cm$^{-2}$ (18\%) and 257\,mC-cm$^{-2}$ (31\%). The detector performance is stable at high fraction of accumulated charge.\relax }{figure.4.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Cluster size of RE2/2 as a function of the effective HV, without irradiation (left) and under a gamma background rate of about 600\tmspace  +\thinmuskip {.1667em}Hz-cm$^{-2}$ (right). The measured cluster size of the RE2/2 chamber corresponds to different Test Beams (TB) with integrated charge: 153\tmspace  +\thinmuskip {.1667em}mC-cm$^{-2}$ (18\%) and 257\tmspace  +\thinmuskip {.1667em}mC-cm$^{-2}$ (31\%). The cluster size is above 2 at working point of the detector with high fraction of accumulated charge.\relax }}{4-12}{figure.4.16}}
+\newlabel{fig:cms_rpc_cluster_diff_periods}{{4.16}{4-12}{Cluster size of RE2/2 as a function of the effective HV, without irradiation (left) and under a gamma background rate of about 600\,Hz-cm$^{-2}$ (right). The measured cluster size of the RE2/2 chamber corresponds to different Test Beams (TB) with integrated charge: 153\,mC-cm$^{-2}$ (18\%) and 257\,mC-cm$^{-2}$ (31\%). The cluster size is above 2 at working point of the detector with high fraction of accumulated charge.\relax }{figure.4.16}{}}
+\@setckpt{Chapters/wincc_oa}{
+\setcounter{page}{13}
+\setcounter{equation}{4}
+\setcounter{enumi}{4}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{4}
+\setcounter{section}{5}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{16}
+\setcounter{table}{1}
+\setcounter{fixmecount}{0}
+\setcounter{fxnotecount}{0}
+\setcounter{fxwarningcount}{0}
+\setcounter{fxerrorcount}{0}
+\setcounter{fxfatalcount}{0}
+\setcounter{pseudocode}{0}
+\setcounter{pseudonum}{0}
+\setcounter{Item}{4}
+\setcounter{Hfootnote}{2}
+\setcounter{bookmark@seq@number}{34}
+\setcounter{ContinuedFloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{float@type}{16}
+\setcounter{linenumber}{1}
+\setcounter{LN@truepage}{60}
+\setcounter{parentequation}{0}
+\setcounter{lstnumber}{1}
+\setcounter{tabx@nest}{0}
+\setcounter{listtotal}{0}
+\setcounter{listcount}{0}
+\setcounter{liststart}{0}
+\setcounter{liststop}{0}
+\setcounter{citecount}{0}
+\setcounter{citetotal}{0}
+\setcounter{multicitecount}{0}
+\setcounter{multicitetotal}{0}
+\setcounter{instcount}{113}
+\setcounter{maxnames}{2}
+\setcounter{minnames}{1}
+\setcounter{maxitems}{3}
+\setcounter{minitems}{1}
+\setcounter{citecounter}{0}
+\setcounter{savedcitecounter}{0}
+\setcounter{uniquelist}{0}
+\setcounter{uniquename}{0}
+\setcounter{refsection}{0}
+\setcounter{refsegment}{0}
+\setcounter{maxextrayear}{0}
+\setcounter{maxextraalpha}{0}
+\setcounter{abbrvpenalty}{50}
+\setcounter{highnamepenalty}{50}
+\setcounter{lownamepenalty}{25}
+\setcounter{maxparens}{3}
+\setcounter{parenlevel}{0}
+\setcounter{mincomprange}{10}
+\setcounter{maxcomprange}{100000}
+\setcounter{mincompwidth}{1}
+\setcounter{labelname}{0}
+\setcounter{savedlabelname}{0}
+\setcounter{author}{0}
+\setcounter{savedauthor}{0}
+\setcounter{shortauthor}{0}
+\setcounter{savedshortauthor}{0}
+\setcounter{editor}{0}
+\setcounter{savededitor}{0}
+\setcounter{editora}{0}
+\setcounter{savededitora}{0}
+\setcounter{editorb}{0}
+\setcounter{savededitorb}{0}
+\setcounter{editorc}{0}
+\setcounter{savededitorc}{0}
+\setcounter{shorteditor}{0}
+\setcounter{savedshorteditor}{0}
+\setcounter{bookauthor}{0}
+\setcounter{savedbookauthor}{0}
+\setcounter{translator}{0}
+\setcounter{savedtranslator}{0}
+\setcounter{annotator}{0}
+\setcounter{savedannotator}{0}
+\setcounter{commentator}{0}
+\setcounter{savedcommentator}{0}
+\setcounter{introduction}{0}
+\setcounter{savedintroduction}{0}
+\setcounter{foreword}{0}
+\setcounter{savedforeword}{0}
+\setcounter{afterword}{0}
+\setcounter{savedafterword}{0}
+\setcounter{holder}{0}
+\setcounter{savedholder}{0}
+\setcounter{namea}{0}
+\setcounter{savednamea}{0}
+\setcounter{nameb}{0}
+\setcounter{savednameb}{0}
+\setcounter{namec}{0}
+\setcounter{savednamec}{0}
+\setcounter{institution}{0}
+\setcounter{savedinstitution}{0}
+\setcounter{language}{0}
+\setcounter{savedlanguage}{0}
+\setcounter{location}{0}
+\setcounter{savedlocation}{0}
+\setcounter{organization}{0}
+\setcounter{savedorganization}{0}
+\setcounter{origlocation}{0}
+\setcounter{savedoriglocation}{0}
+\setcounter{origpublisher}{0}
+\setcounter{savedorigpublisher}{0}
+\setcounter{pageref}{0}
+\setcounter{savedpageref}{0}
+\setcounter{publisher}{0}
+\setcounter{savedpublisher}{0}
+\setcounter{lista}{0}
+\setcounter{savedlista}{0}
+\setcounter{listb}{0}
+\setcounter{savedlistb}{0}
+\setcounter{listc}{0}
+\setcounter{savedlistc}{0}
+\setcounter{listd}{0}
+\setcounter{savedlistd}{0}
+\setcounter{liste}{0}
+\setcounter{savedliste}{0}
+\setcounter{listf}{0}
+\setcounter{savedlistf}{0}
+\setcounter{textcitecount}{0}
+\setcounter{textcitetotal}{0}
+\setcounter{textcitemaxnames}{0}
+\setcounter{biburlnumpenalty}{0}
+\setcounter{biburlucpenalty}{0}
+\setcounter{biburllcpenalty}{0}
+\setcounter{smartand}{1}
+\setcounter{bbx:relatedcount}{0}
+\setcounter{bbx:relatedtotal}{0}
+\setcounter{cbx@tempcnta}{0}
+\setcounter{cbx@tempcntb}{74}
+\setcounter{section@level}{1}
+\setcounter{lstlisting}{0}
+\setcounter{algorithm}{0}
+}

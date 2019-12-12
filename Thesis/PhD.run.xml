@@ -85,10 +85,6 @@
     </requires>
     <requires type="editable">
       <file>bib/PhD.bib</file>
-      <file>bib/chap2.bib</file>
-      <file>bib/chap3.bib</file>
-      <file>bib/chap4.bib</file>
-      <file>bib/chap8.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

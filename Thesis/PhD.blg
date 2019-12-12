@@ -2,20 +2,21 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhD.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: Chapters/chapt_dutch.aux
-A level-1 auxiliary file: Chapters/chapt_english.aux
+A level-1 auxiliary file: phdacronyms.aux
 A level-1 auxiliary file: Chapters/intro.aux
-A level-1 auxiliary file: Chapters/chapt2.aux
-A level-1 auxiliary file: Chapters/chapt3.aux
-A level-1 auxiliary file: Chapters/chapt4.aux
-A level-1 auxiliary file: Chapters/chapt5.aux
-A level-1 auxiliary file: Chapters/chapt6.aux
-A level-1 auxiliary file: Chapters/chapt7.aux
-A level-1 auxiliary file: Chapters/chapt8.aux
+A level-1 auxiliary file: Chapters/sm_beyond.aux
+A level-1 auxiliary file: Chapters/lhc.aux
+A level-1 auxiliary file: Chapters/wincc_oa.aux
+A level-1 auxiliary file: Chapters/sign_gen.aux
+A level-1 auxiliary file: Chapters/research_strategy.aux
+A level-1 auxiliary file: Chapters/combination.aux
 A level-1 auxiliary file: Chapters/conclusion.aux
-A level-1 auxiliary file: Chapters/app1.aux
-A level-1 auxiliary file: Chapters/app2.aux
-A level-1 auxiliary file: Chapters/app3.aux
+A level-1 auxiliary file: Chapters/init_app/chapt_dutch.aux
+A level-1 auxiliary file: bib/bib_names.aux
+A level-1 auxiliary file: Chapters/init_app/app2.aux
+A level-1 auxiliary file: Chapters/init_app/app3.aux
+A level-1 auxiliary file: Chapters/init_app/app4.aux
+A level-1 auxiliary file: Chapters/init_app/app5.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -27,54 +28,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15286 items from 5000.
+Reallocated field_info (elt_size=4) to 31271 items from 5000.
 Database file #1: PhD-blx.bib
 Database file #2: bib/PhD.bib
-Database file #3: bib/chap2.bib
-Database file #4: bib/chap3.bib
-Database file #5: bib/chap4.bib
-Database file #6: bib/chap8.bib
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 74 entries,
+You've used 189 entries,
             6047 wiz_defined-function locations,
-            1591 strings with 20465 characters,
-and the built_in function-call counts, 196688 in all, are:
-= -- 7083
-> -- 6067
-< -- 1371
-+ -- 1608
-- -- 2202
-* -- 13443
-:= -- 11267
+            2278 strings with 42744 characters,
+and the built_in function-call counts, 482982 in all, are:
+= -- 16980
+> -- 14204
+< -- 3137
++ -- 3738
+- -- 5350
+* -- 32689
+:= -- 26869
 add.period$ -- 0
-call.type$ -- 74
-change.case$ -- 686
-chr.to.int$ -- 35
-cite$ -- 146
-duplicate$ -- 23312
-empty$ -- 22775
-format.name$ -- 4043
-if$ -- 44625
+call.type$ -- 189
+change.case$ -- 1509
+chr.to.int$ -- 40
+cite$ -- 376
+duplicate$ -- 58048
+empty$ -- 57310
+format.name$ -- 9758
+if$ -- 109675
 int.to.chr$ -- 0
-int.to.str$ -- 186
+int.to.str$ -- 462
 missing$ -- 0
-newline$ -- 1848
-num.names$ -- 2965
-pop$ -- 23124
+newline$ -- 4521
+num.names$ -- 6892
+pop$ -- 59812
 preamble$ -- 1
-purify$ -- 895
+purify$ -- 2017
 quote$ -- 0
-skip$ -- 11475
+skip$ -- 27472
 stack$ -- 0
-substring$ -- 2639
-swap$ -- 7709
-text.length$ -- 1339
-text.prefix$ -- 1
+substring$ -- 5783
+swap$ -- 18793
+text.length$ -- 3151
+text.prefix$ -- 7
 top$ -- 1
-type$ -- 2781
+type$ -- 7050
 warning$ -- 0
-while$ -- 1214
+while$ -- 2817
 width$ -- 0
-write$ -- 1773
+write$ -- 4331
